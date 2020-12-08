@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <manifest package="com.example.six" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <application android:theme="@style/AppTheme"
+        android:supportsRtl="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:label="18990091-毕竞之"
+        android:icon="@mipmap/ic_launcher"
+        android:allowBackup="true">
+
+    <activity android:exported="true" android:name=".RegisterActivity"/>
+
+    <activity android:exported="true" android:name=".TextWriteActivity"/>
+
+    <activity android:exported="true" android:name=".TextReadActivity"/>
+
+    <activity android:exported="true" android:name=".ShareWriteActivity"/>
+
+    <activity android:exported="true" android:name=".ShareReadActivity"/>
+
+    <activity android:exported="true" android:name=".SQLiteWriteActivity"/>
+
+    <activity android:exported="true" android:name=".SQLiteReadActivity"/>
+
+    <activity android:exported="true" android:name=".SDCardInfoActivity"/>
+
+    <activity android:exported="true" android:name=".ImageWriteActivity"/>
+
+    <activity android:exported="true" android:name=".ImageReadActivity"/>
+
+    <activity android:exported="true" android:name=".AppWriteActivity"/>
+
+    <activity android:exported="true" android:name=".AppReadActivity"/>
+
+    <activity android:exported="true" android:name=".LoginForgetActivity"/>
+
+    <activity android:exported="true" android:name=".EditTextActivity"/>
+
+    <activity android:exported="true" android:name=".SwitchActivity"/>
+
+
+    -<activity android:exported="true" android:name=".MainActivity">
+
+
+    -<intent-filter>
+
+    <action android:name="android.intent.action.MAIN"/>
+
+    <category android:name="android.intent.category.LAUNCHER"/>
+
+</intent-filter>
+
+</activity>
+
+</application>
+
+</manifest>
